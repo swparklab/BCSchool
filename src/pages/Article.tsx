@@ -19,7 +19,7 @@ const Article = () => {
 
   return (
     <div className="mb-5">
-      <div className="mt-5 text-3xl mb-5">
+      <div className="mt-5 text-2xl mb-5">
         최신 도시농업플렛폼 기사 목록
       </div>
       <div className="grid grid-cols-2 gap-4">

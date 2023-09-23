@@ -15,7 +15,7 @@ const Study = () => {
 
   return (
     <div className="mb-5">
-      <div className="mt-5 text-3xl mb-5">
+      <div className="mt-5 text-2xl mb-5">
         도시농업플렛폼 무료 특화교육
         </div>
       <div className="grid grid-cols-1 gap-4 border-2">

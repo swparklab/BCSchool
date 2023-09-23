@@ -36,7 +36,7 @@ const Pagelist = () => {
 
   return (
     <div className="mb-5">
-      <div className="mt-5 text-3xl mb-5">
+      <div className="mt-5 text-2xl mb-5">
         대여 가능한 농장 목록
       </div>
       <div className="grid grid-cols-3 gap-4">
