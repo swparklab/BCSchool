@@ -35,12 +35,17 @@ const Pagelist = () => {
   };
 
   return (
-    <div className="grid grid-cols-3 gap-4">
-      {RobottokImages.map((image, index) => (
-        <div key={index} onClick={() => handleImageClick(image.link)} style={{ cursor: 'pointer' }}>
-          <img src={image.src} alt="" />
-        </div>
-      ))}
+    <div className="mb-5">
+      <div className="mt-5 text-3xl mb-5">
+        대여 가능한 농장 목록
+      </div>
+      <div className="grid grid-cols-3 gap-4">
+        {RobottokImages.map((image, index) => (
+          <div key={index} onClick={() => handleImageClick(image.link)} style={{ cursor: 'pointer' }}>
+            <img src={image.src} alt="" />
+          </div>
+        ))}
+      </div>
     </div>
   );
 };
