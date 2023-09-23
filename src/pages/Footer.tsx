@@ -21,6 +21,7 @@ export default Footer;
 */
 
 import React, { useEffect, useState } from "react";
+// import tw from "twin.macro";
 import footer_logo from "../imagesfarm/footer/smartfarm_footer.png";
 
 const Footer = () => {
@@ -44,9 +45,17 @@ const Footer = () => {
   };
 
   return (
-    <div className="p-24 text-center bg-gray-200">
+    /*
+    <div tw="p-24 text-center bg-gray-200">
       <img src={footer_logo} alt="" style={imageStyle} />
     </div>
+    */
+    <footer className="w-screen flex items-center justify-center bg-custom">
+        <div className="w-full h-full flex items-center justify-center">
+            <img src={footer_logo} style={imageStyle} className="h-full object-cover" alt=""/>
+        </div>
+    </footer>
+    
   );
 };
 
